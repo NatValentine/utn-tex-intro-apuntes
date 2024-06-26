@@ -7,6 +7,10 @@ body {
     margin: 0;
 }
 
+a {
+    text-decoration: none;
+}
+
 .container {
     width: 80%;
     margin: auto;
@@ -61,10 +65,18 @@ body {
     box-sizing: border-box;
 }
 
+#main a {
+    color: #555555;
+}
+
 #sidebar {
     float: right;
     width: 30%;
     box-sizing: border-box;
+}
+
+#sidebar a {
+    color: #ffffff;
 }
 
 #sidebar .card {
@@ -86,9 +98,10 @@ body {
     margin: 30px 0;
 }
 
-.image-card p {
+.fuente {
     font-size: 0.7em;
     margin: auto;
+    text-align: right;
 }
 
 img {
@@ -130,6 +143,7 @@ td + td {
     }
 
     #sidebar {
+        margin-top: 2em;
         width: 100%;
         float: none
     }
