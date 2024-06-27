@@ -137,6 +137,14 @@ td + td {
 }
 
 @media(max-width:600px) {
+    #navbar {
+        padding: 0 1em;
+    }
+
+    #main-header {
+        padding: 0 1em;
+    }
+    
     #main {
         width: 100%;
         float: none;
@@ -146,5 +154,11 @@ td + td {
         margin-top: 2em;
         width: 100%;
         float: none
+    }
+
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
     }
 }
