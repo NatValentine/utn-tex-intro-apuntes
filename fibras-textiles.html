@@ -4,23 +4,12 @@
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <link rel="stylesheet" type="text/css" href="./styles/style.css" />
+    <script src="components/header.js" type="text/javascript" defer></script>
+    <script src="components/footer.js" type="text/javascript" defer></script>
     <title>Introducción a la Industria Textil</title>
   </head>
   <body>
-    <header id="main-header">
-      <div class="container">
-        <h1>Introducción a la Industria Textil</h1>
-      </div>
-    </header>
-
-    <nav id="navbar">
-      <div class="container">
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="#">Fibras Textiles</a></li>
-        </ul>
-      </div>
-    </nav>
+    <header-component></header-component>
 
     <div class="container">
       <section id="showcase">
@@ -47,19 +36,35 @@
         <br />
         <h2>Clasificación</h2>
         <p>
-          Según su procedencia, las fibras textiles se pueden clasificar como:
+          Según su <strong>procedencia</strong>, las fibras textiles se pueden
+          clasificar como:
         </p>
         <ul>
-          <li>Naturales: Proceden de animales, vegetales o minerales.</li>
+          <li>
+            <strong>Naturales</strong>: Proceden de animales, vegetales o
+            minerales.
+          </li>
           <ul>
-            <li>Vegetales o celulósicas</li>
+            <li>
+              <strong
+                ><a class="inner-link" href="fibras-naturales-celulosicas.html"
+                  >Vegetales o celulósicas</a
+                ></strong
+              >
+            </li>
             <ul>
               <li>Del fruto o la semilla: Algodón, Coco</li>
               <li>Del tallo o tronco: Lino, Cáñamo, Bambú, Yute, Ramio</li>
               <li>De la hoja: Esparto, Sisal, Miraguano</li>
               <li>De la raíz</li>
             </ul>
-            <li>Proteicas</li>
+            <li>
+              <strong
+                ><a class="inner-link" href="fibras-naturales-proteicas.html"
+                  >Proteicas</a
+                ></strong
+              >
+            </li>
             <ul>
               <li>De folículo piloso</li>
               <ul>
@@ -73,7 +78,7 @@
                 <li>Tussah o seda salvaje (varias especies de Antheraera)</li>
               </ul>
             </ul>
-            <li>Minerales o inorgánicas</li>
+            <li><strong>Minerales o inorgánicas</strong></li>
             <ul>
               <li>Amianto</li>
               <li>Vidrio textil</li>
@@ -81,24 +86,36 @@
             </ul>
           </ul>
           <li>
-            Manufacturadas: Se obtienen por la transformación de la materia
-            prima (polímero). También se las llama "fibras químicas".
+            <strong>Manufacturadas</strong>: Se obtienen por la transformación
+            de la materia prima (polímero). También se las llama "fibras
+            químicas".
           </li>
           <ul>
             <li>
-              Artificiales o regeneradas: Se obtienen con el tratamiento químico
-              de un monómero natural.
+              <strong
+                ><a
+                  class="inner-link"
+                  href="fibras-manufacturadas-artificiales.html"
+                  >Artificiales o regeneradas</a
+                ></strong
+              >: Se obtienen con el tratamiento químico de un monómero natural.
             </li>
             <ul>
               <li>
-                Celulósicas: Viscosa, Acetato, Triacetato, Modal, Caucho, Látex
+                <strong>Celulósicas</strong>: Viscosa, Acetato, Triacetato,
+                Modal, Caucho, Látex
               </li>
-              <li>Proteicas: Ardil, Alginato, Fibrolana</li>
-              <li>Metálicas: Oro, Plata, Cobre</li>
+              <li><strong>Proteicas</strong>: Ardil, Alginato, Fibrolana</li>
+              <li><strong>Metálicas</strong>: Oro, Plata, Cobre</li>
             </ul>
             <li>
-              Sintéticas: Se obtienen de síntesis química. Son derivadas del
-              petróleo.
+              <strong
+                ><a
+                  class="inner-link"
+                  href="fibras-manufacturadas-sinteticas.html"
+                  >Sintéticas</a
+                ></strong
+              >: Se obtienen de síntesis química. Son derivadas del petróleo.
             </li>
             <ul>
               <li>Por policondensación: Poliamida (Nylon), Poliéster</li>
@@ -109,6 +126,16 @@
               <li>Por poliadición: Poliuretano</li>
             </ul>
           </ul>
+        </ul>
+        <br />
+        <p>Según su <strong>longitud</strong>, se clasifican en:</p>
+        <ul>
+          <li>
+            <strong>Fibras continuas</strong>: las manufacturadas y la seda
+          </li>
+          <li>
+            <strong>Fibras discontinuas</strong>: las naturales menos la seda
+          </li>
         </ul>
         <div class="image-card">
           <img
@@ -174,20 +201,22 @@
         <h3>Estructura interna</h3>
         <ul>
           <li>
-            Composición química: Afecta el tipo de tintura, absorción de
-            humedad, tipo de solvente que la ataca, comportamiento al fuego,
-            resistencia y elongación.
+            <strong>Composición química</strong>: Afecta el tipo de tintura,
+            absorción de humedad, tipo de solvente que la ataca, comportamiento
+            al fuego, resistencia y elongación.
           </li>
           <li>
-            Grado de polimerización y Peso molecular: Se relacionan con la
-            longitud de la cadena molecular, más larga es más resistente.
+            <strong>Grado de polimerización</strong> y
+            <strong>Peso molecular</strong>: Se relacionan con la longitud de la
+            cadena molecular, más larga es más resistente.
           </li>
           <li>
-            Cristalinidad: Tiene que ver con la distribución de las cadenas
-            moleculares. Hay zonas cristalinas donde las cadenas son paralelas
-            al eje longitudinal y zonas amorfas cuando están desordenadas. Se
-            relaciona con la resistencia, elongación, capacidad de absorción de
-            humedad y la receptividad a los colorantes de la fibra.
+            <strong>Cristalinidad</strong>: Tiene que ver con la distribución de
+            las cadenas moleculares. Hay zonas cristalinas donde las cadenas son
+            paralelas al eje longitudinal y zonas amorfas cuando están
+            desordenadas. Se relaciona con la resistencia, elongación, capacidad
+            de absorción de humedad y la receptividad a los colorantes de la
+            fibra.
           </li>
         </ul>
         <div class="image-card">
