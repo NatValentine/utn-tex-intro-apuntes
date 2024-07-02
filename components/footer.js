@@ -5,6 +5,8 @@ class Footer extends HTMLElement {
 
   connectedCallback() {
     this.innerHTML = `
+    <a id="back-to-top" href="#">⬆️</a>
+
     <footer id="main-footer">
       <h4>Agradecimientos:</h4>
       <p>Profesora Ing. Patricia Marino</p>

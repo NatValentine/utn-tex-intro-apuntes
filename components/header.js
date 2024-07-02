@@ -14,7 +14,7 @@ class Header extends HTMLElement {
     <nav id="navbar">
       <div class="container">
         <ul>
-          <li><a href="#">Home</a></li>
+          <li><a href="index.html">Home</a></li>
           <li><a href="fibras-textiles.html">Fibras Textiles</a></li>
         </ul>
       </div>

@@ -133,6 +133,13 @@ td + td {
     text-align: center;
 }
 
+#back-to-top {
+    display: block;
+    margin: 1em 2em;
+    text-align: center;
+    font-size: 2em;
+}
+
 #main-footer {
     background: #333333;
     color:#ffffff;
