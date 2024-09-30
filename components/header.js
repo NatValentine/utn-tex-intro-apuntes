@@ -16,6 +16,8 @@ class Header extends HTMLElement {
         <ul>
           <li><a href="index.html">Home</a></li>
           <li><a href="fibras-textiles.html">Fibras Textiles</a></li>
+          <li><a href="hilanderia.html">Hilandería</a></li>
+          <li><a href="titulacion.html">Titulación</a></li>
         </ul>
       </div>
     </nav>
