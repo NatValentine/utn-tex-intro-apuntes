@@ -14,10 +14,12 @@ class Header extends HTMLElement {
     <nav id="navbar">
       <div class="container">
         <ul>
-          <li><a href="index.html">Home</a></li>
+          <li><a href="index.html">Introducción</a></li>
           <li><a href="fibras-textiles.html">Fibras Textiles</a></li>
-          <li><a href="hilanderia.html">Hilandería</a></li>
-          <li><a href="titulacion.html">Titulación</a></li>
+          <li><a href="hilatura.html">Hilatura</a></li>
+          <li><a href="tejeduria.html">Tejeduría</a></li>
+          <li><a href="terminacion.html">Terminación</a></li>
+          <li><a href="about.html">Acerca de</a></li>
         </ul>
       </div>
     </nav>
