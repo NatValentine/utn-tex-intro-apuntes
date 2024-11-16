@@ -17,6 +17,7 @@ class Header extends HTMLElement {
           <li><a href="index.html">Introducción</a></li>
           <li><a href="fibras-textiles.html">Fibras Textiles</a></li>
           <li><a href="hilatura.html">Hilatura</a></li>
+          <li><a href="titulacion.html">Titulación</a></li>
           <li><a href="tejeduria.html">Tejeduría</a></li>
           <li><a href="terminacion.html">Terminación</a></li>
           <li><a href="about.html">Acerca de</a></li>
