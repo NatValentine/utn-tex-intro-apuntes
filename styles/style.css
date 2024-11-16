@@ -63,11 +63,20 @@ a {
     padding-top: 30px;
 }
 
-#main {
+.main {
     float: left;
     width: 70%;
     padding: 0 30px;
     box-sizing: border-box;
+}
+
+#no-aside {
+    width: 100%;
+}
+
+#no-aside .image-card {
+    width: 80%;
+    margin: auto;
 }
 
 #main a {
