@@ -21,6 +21,7 @@ class Header extends HTMLElement {
           <li><a href="tejeduria.html">Tejeduría</a></li>
           <li><a href="terminacion.html">Terminación</a></li>
           <li><a href="about.html">Acerca de</a></li>
+          <li><a href="contact.html">Contacto</a></li>
         </ul>
       </div>
     </nav>
