@@ -79,7 +79,7 @@ a {
     margin: auto;
 }
 
-#main a {
+.main a {
     color: #555555;
 }
 
@@ -168,7 +168,14 @@ td + td {
     margin-top: 40px;
 }
 
-@media(max-width:600px) {
+@media (max-width:600px) {
+    .container {
+        width: 100%;
+        margin: auto;
+        overflow: hidden;
+        float:none;
+    }
+
     #navbar {
         padding: 0 1em;
     }
@@ -176,8 +183,8 @@ td + td {
     #main-header {
         padding: 0 1em;
     }
-    
-    #main {
+
+    .main {
         width: 100%;
         float: none;
     }
@@ -186,12 +193,6 @@ td + td {
         margin-top: 2em;
         width: 100%;
         float: none
-    }
-
-    .container {
-        width: 100%;
-        margin: auto;
-        overflow: hidden;
     }
 
     table {
